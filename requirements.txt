@@ -1,0 +1,2 @@
+# Requirements for Git Trending Repos CLI
+requests>=2.31.0
