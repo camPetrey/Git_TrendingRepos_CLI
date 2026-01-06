@@ -48,3 +48,5 @@ python3 trendingRepos.py -l 10 -d week
 2. Fetch top 3 repositories from the past year:
 
 python3 trendingRepos.py --limit 3 --duration year
+
+https://roadmap.sh/projects/github-trending-cli - project idea
