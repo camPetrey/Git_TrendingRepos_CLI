@@ -15,3 +15,36 @@ Primary programming language
 URL
 
 Leverages the GitHub REST API and includes error handling for invalid input or API issues. For developers who want a quick snapshot of what’s popular on GitHub.
+
+## Installation
+
+1. Clone the repository:
+
+git clone <your-repo-url>
+cd Git_TrendingRepos_CLI
+
+
+2. Create and activate a Python virtual environment:
+
+python3 -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+# On Windows: .venv\Scripts\activate
+
+3. Install the required dependencies:
+
+pip install -r requirements.txt
+
+## Usage
+
+Run the CLI tool from your terminal:
+python3 trendingRepos.py [options]
+
+## Examples: 
+
+1. Fetch top 10 repositories from the past week:
+
+python3 trendingRepos.py -l 10 -d week
+
+2. Fetch top 3 repositories from the past year:
+
+python3 trendingRepos.py --limit 3 --duration year
